@@ -2,8 +2,6 @@ workflows:
   android-workflow:
     name: Android Build
     environment:
-      android:
-        image: default
       vars:
         VERSION_CODE: 1
         VERSION_NAME: 1.0.0
@@ -16,4 +14,3 @@ workflows:
       email:
         recipients:
           - parsabhramabady615@gmail.com
-          
